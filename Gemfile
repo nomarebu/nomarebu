@@ -1,3 +1,4 @@
 source 'http://gemcutter.org'
-gem 'haml'
-gem 'sinatra'
+
+gem 'sinatra', :require_as => 'sinatra/base'
+gem 'haml', :require_as => %w(haml sass)

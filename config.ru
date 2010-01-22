@@ -1,5 +1,5 @@
 require File.join(File.dirname(__FILE__), 'vendor', 'gems', 'environment')
-require 'sinatra/base'
+Bundler.require_env ENV['RACK_ENV']
 
 require 'app'
 run App
