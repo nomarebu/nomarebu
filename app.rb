@@ -1,4 +1,6 @@
 class App < Sinatra::Base
+  set :static, true
+  set :public, "public"
   set :haml, {:format => :html5 }
 
   get '/' do
