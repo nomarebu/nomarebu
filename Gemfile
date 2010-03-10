@@ -1,6 +1,6 @@
 source 'http://gemcutter.org'
 
-gem 'sinatra', :require_as => 'sinatra/base'
-gem 'haml', :require_as => %w(haml sass)
+gem 'sinatra', :require => "sinatra/base"
+gem 'haml'
 gem 'rubytter'
 gem 'sequel'

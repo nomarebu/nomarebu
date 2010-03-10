@@ -1,5 +1,5 @@
 account.yml
 sake.txt
-vendor
+.bundle
 bin
 *.db
