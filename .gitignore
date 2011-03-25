@@ -3,3 +3,4 @@ sake.txt
 .bundle
 bin
 *.db
+vendor/*

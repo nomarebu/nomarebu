@@ -1,11 +1,4 @@
-source 'http://gemcutter.org'
+source :rubygems
 
 gem 'sinatra', :require => "sinatra/base"
 gem 'haml'
-gem 'rubytter'
-gem 'sequel'
-
-group :production do
-  gem 'pg'
-  gem 'thin'
-end
